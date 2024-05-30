@@ -126,5 +126,8 @@ swiper {
 
     .review-desc button{
       margin-top: 0;
-    };
+    }
+    .review-png{
+      padding-bottom: 2rem;
+    }
   }

@@ -6,6 +6,7 @@ import { useTheme } from '../../context/ThemeContext'
 import useLocalStorage from "use-local-storage";
 import { Outlet, Link } from "react-router-dom";
 import './Navbar.css';
+import logo from '../../assets/pngegg.png'
 
 
 const navigation = [
@@ -55,7 +56,7 @@ export default function Navbar() {
                  <Link to='/'>
                  <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src={logo}
                     alt="Your Company"
                   />
                  </Link>

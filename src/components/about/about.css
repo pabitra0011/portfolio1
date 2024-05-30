@@ -1,11 +1,11 @@
 
 
 .about-compo{
-    /* border: 1px solid red; */
     /* padding: 1rem 0 0 3rem; */
 }
 .about-container{
     width: 80%;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     flex-wrap:wrap;
@@ -16,7 +16,7 @@
 .about-container .about-img{
     width: 400px;
     height: 400px;
-    border: 1px solid rgb(222, 222, 253)214, 214, 247);
+    /* border: 1px solid rgb(222, 222, 253)214, 214, 247); */
 }
 .about-container .about-img img{
     width: 100%;
@@ -49,5 +49,15 @@
 @media screen and (max-width: 500px){
     .about-right{
         max-width: 95%;
+    }
+    .about-container{
+        width:90%;
+        text-align: center;
+        padding: 3rem 0 5rem 0;
+    }
+    .about-right h2{
+        font-size: 17px;
+        text-align: center;
+        
     }
 }

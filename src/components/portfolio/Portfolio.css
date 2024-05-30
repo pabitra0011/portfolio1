@@ -116,18 +116,32 @@ max-width: 500px;
 @media  screen and (max-width:480px) {
     
     .portfolio-main{
-        width:100%;
+        width:95%;
     
     }
-    .portfolio-main h1,p{
-        padding: 5px;
+    .portfolio-main h1{
+       text-align: center;
+       padding: 0 0 20px 0;
+    }
+    .portfolio-main p{
+        max-width: 100%;
+       text-align: center;
+       padding: 0 0 20px 0;
+       /* border: 1px solid red; */
     }
     .portfolio-container{
-        width: 90%;
+        width: 100%;
     }
 
     .portfolio-item{
         flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    
+    }
+    .project-desc p{
+        text-align: start;
+        padding-top: 20px;
     }
 
 
