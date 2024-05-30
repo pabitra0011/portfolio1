@@ -1,0 +1,34 @@
+
+
+.ligthThemenavli{
+    transition: 0.7s;
+}
+.darkThemenavli{
+    color: #fff;
+}
+
+
+/* =========================== */
+
+.nav-btn {
+    background: none;
+    font-family:  sans-serif;
+    display:block;
+    cursor: pointer;
+    margin : 1rem auto;
+    font-size: 15px;
+    padding: 0 1rem;
+}
+
+.nav-btn:hover{
+ /* box-shadow: rgba(255, 25, 113, 0.4) 0px 5px, rgba(240, 46, 137, 0.3) 0px 10px, rgba(240, 46, 175, 0.2) 0px 15px, rgba(240, 46, 159, 0.1) 0px 20px, rgba(132, 208, 252, 0.05) 0px 25px; */
+ box-shadow: rgba(46, 75, 240, 0.4) 0px 5px, rgba(46, 130, 240, 0.3) 0px 10px, rgba(46, 130, 240, 0.2) 0px 15px, rgba(46, 124, 240, 0.1) 0px 20px, rgba(132, 208, 252, 0.05) 0px 25px;
+ /* background-color: #fff; */
+ transition: 0.7s;
+ color: #3585ff;
+ /* color:rgb(252, 33, 124); */
+}
+
+.nav-border{
+    
+}
